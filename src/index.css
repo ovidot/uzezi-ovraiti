@@ -1,0 +1,245 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: white !important;
+  color: black !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/*Nav Style*/
+.navhm {
+  background-color: rgb(232, 135, 17);
+  border-radius: 25px;
+}
+.navnum {
+  text-decoration: none;
+  color: black;
+  font-family: "Kenia", cursive;
+}
+/* .navbar-toggler-icon{
+  border-radius:5px;
+} */
+.nav-link {
+  text-decoration: none !important;
+  color: white !important ;
+  font-family: Amatic, cursive;
+  font-size: 15px;
+}
+.nav-link:hover {
+  color: blue;
+  background-color: black;
+  border-radius: 25px;
+  font-family: Kenia, cursive;
+  transition: 2s;
+}
+.dropdown-item {
+  color: black;
+  border-radius: 25px;
+  font-family: Amatic, cursive;
+  font-size: 30px;
+}
+.dropdown-item:hover {
+  background-color: black !important;
+  color: white !important;
+  font-family: "Kenia", cursive;
+  transition: 1s;
+}
+/*Body Style*/
+
+.myname {
+  font-family: Amatic;
+  color: black;
+}
+#whoami {
+  background-color: skyblue;
+  border-radius: 10px;
+}
+.ovidot {
+  background-color: skyblue;
+  border-radius: 25px;
+}
+.xpdesign {
+  color: rgb(232, 135, 17);
+  font-family: "Kenia", cursive;
+  font-size: 2vw;
+}
+.mystars {
+  font-family: Amatic, cursive;
+  color: white;
+  font-size: 1.5vw;
+}
+
+/*Offcanvas style*/
+.offcanvas-body {
+  background-color: skyblue !important;
+}
+.offcanvas-header {
+  background-color: black;
+  align-items: center !important;
+}
+.offcanvas-title {
+  font-size: 20px;
+  text-align: center;
+}
+.btn-close {
+  color: white;
+}
+.OCdescription {
+  font-size: 15px;
+  text-align: center;
+}
+.my2name {
+  font-family: Amatic, cursive;
+  color: black;
+}
+.OCcharacter {
+  border: 3px solid rgb(232, 135, 17);
+  border-radius: 50%;
+  height: 55px;
+  text-align: center;
+  padding-top: 10px;
+  color: black;
+  font-family: Amatic, cursive;
+  font-size: 20px;
+}
+.OCcharacter1 {
+  padding: right 5px;
+  color: black;
+  text-align: center;
+}
+.Prgsbar {
+  height: 10px;
+  background-color: grey;
+  margin-top: 0px;
+}
+#b1 {
+  height: inherit;
+  background-color: rgb(232, 135, 17);
+  width: 50%;
+  text-align: center;
+}
+#b2 {
+  height: 10px;
+  background-color: rgb(232, 135, 17);
+  width: 90%;
+  text-align: center;
+}
+#b3 {
+  height: 10px;
+  background-color: rgb(232, 135, 17);
+  width: 75%;
+  text-align: center;
+}
+#b4 {
+  height: 10px;
+  background-color: rgb(232, 135, 17);
+  width: 55%;
+  text-align: center;
+}
+#b5 {
+  height: 10px;
+  background-color: rgb(232, 135, 17);
+  width: 45%;
+  text-align: center;
+}
+
+/*Contact Style*/
+.subtitle {
+  font-family: Amatic, cursive;
+  color: skyblue;
+  font-size: 2vw;
+}
+.subtitle2 {
+  font-family: "Kenia", cursive;
+  color: white;
+  font-weight: 900;
+}
+.codefnt {
+  font-family: "Alex Brush", cursive;
+  color: grey;
+}
+#sndmsg {
+  background-color: rgb(135, 206, 235);
+}
+#sndmsg:hover {
+  color: black;
+  background-color: rgb(232, 135, 17);
+  border-radius: 25px;
+  transition: 1.5s;
+}
+
+/*TOOLING*/
+#tooling {
+  margin-top: 5px;
+  border-radius: 25px;
+  height: 60px;
+  width: 120px;
+  background-color: rgba(135, 206, 235, 0.7);
+}
+#toolinggb {
+  align-items: center;
+  width: 50%;
+  background-color: rgba(232, 135, 17, 0.8);
+  justify-content: space-evenly;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.myicon {
+  padding-top: 20px;
+  justify-content: space-evenly;
+  height: 30px;
+  color: black;
+}
+#ticon {
+  font-family: cursive;
+}
+.stat-btn {
+  background-color: skyblue !important;
+  border-radius: 20px;
+}
+
+.lnklist {
+  list-style-type: none;
+  color: none;
+}
+.lnklist li a {
+  color: white;
+}
+.lnklist li a:hover {
+  background-color: skyblue;
+  color: rgba(232, 135, 17, 0.8);
+  border-radius: 50%;
+}
+.abta {
+  color: rgba(232, 135, 17, 0.8) !important;
+  font-weight: bolder;
+}
+#footer {
+  color: black;
+  min-height: 20px;
+  background-color: skyblue;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 0px;
+  text-align: center;
+  font-size: 11px;
+  list-style-type: none;
+}
+.pname {
+  text-decoration: none;
+  color: black;
+}
+.pname:hover {
+  background-color: black;
+  color: white;
+  transition: s;
+  border-radius: 10px;
+}

@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Amatic;
+    src: url("./fonts/Amatic_SC/AmaticSC-Bold.ttf"),
+        url("./fonts/Amatic_SC/AmaticSC-Regular.ttf");
+    font-weight: bold;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: kenia;
+    src: url("./fonts/Kenia/Kenia-Regular.ttf");
+  }
+  @font-face {
+    font-family: Alex Brush;
+    src: url("./fonts/Alex_Brush/AlexBrush-Regular.ttf");
+  }
+  * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Open Sans";
+    font-weight: 400;
+  }
